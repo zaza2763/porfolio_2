@@ -1,0 +1,44 @@
+.BlockAirConditions{
+  background-color: #202b3c;
+  padding: 20px;
+  color: rgb(158, 158, 158);
+  border-radius: 15px;
+}
+.Bac-bot-elem{
+  margin-top: 30px;
+}
+.Bac-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Bac-btn{
+  background-color: rgb(75, 75, 174);
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Bac-btn:hover{
+  opacity: 80%;
+}
+.Bac-bot{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.icon{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.Bac-iton-info{
+  display: flex;
+  flex-direction: column;
+}
+.Bac-iton-info span{
+  color: white;
+  font-size: 22px;
+  margin-top: 10px;
+}

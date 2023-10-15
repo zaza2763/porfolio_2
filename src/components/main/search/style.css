@@ -1,0 +1,29 @@
+.Search{
+  display: flex;
+  width: 100%;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  background-color: #202b3c;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+.Btn-search{
+  padding: 5px;
+  width: 200px;
+  background-color: rgb(75, 75, 174);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+}
+.Btn-search:hover{
+  opacity: 80%;
+}
+.Search-input{
+  border: 1px solid red;
+}

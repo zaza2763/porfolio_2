@@ -1,0 +1,39 @@
+.BlockDetails{
+  background-color: #202b3c;
+  padding: 20px;
+  color: rgb(158, 158, 158);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.Bd-items{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  /* gap: 10px; */
+  margin-top: 10px;
+}
+.Bd-item{
+  border-right: 1px solid rgba(128, 128, 128, 0.549);
+  border-left: 1px solid rgba(128, 128, 128, 0.549);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Bd-icon{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px 0;
+}
+.Bd-icon{
+  margin-left: 35px;
+}
